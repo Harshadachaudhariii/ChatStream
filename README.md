@@ -4,7 +4,6 @@ This project provides a comprehensive, step-by-step approach to building a ChatG
 
 By using Ollama, this chatbot runs entirely on your local machine—meaning **zero API costs**, no data leaving your device, and total privacy.
 
----
 
 ## Libraries Used
 
@@ -12,7 +11,6 @@ By using Ollama, this chatbot runs entirely on your local machine—meaning **ze
 * **OpenAI Python Library**: Used to connect to Ollama via its OpenAI-compatible API bridge.
 * **Ollama**: The backend engine responsible for running and serving the LLMs locally.
 
----
 
 ## Getting Started
 
@@ -39,7 +37,6 @@ pip install streamlit openai
 
 ```
 
----
 
 ## Configuration & Setup
 
@@ -48,7 +45,6 @@ The chatbot is pre-configured to point to your local machine. Unlike the officia
 * **Base URL:** `http://localhost:11434/v1`
 * **API Key:** `ollama` (This acts as a placeholder; Ollama does not require a real key).
 
----
 
 ## Key Features
 
@@ -61,7 +57,7 @@ The chatbot is pre-configured to point to your local machine. Unlike the officia
 
 * **Real-time Streaming**: Responses appear word-by-word, providing a modern AI experience.
 
----
+
 
 ## Usage
 
@@ -72,7 +68,6 @@ streamlit run app.py
 
 ```
 
----
 
 ### Project Pro-Tip
 
