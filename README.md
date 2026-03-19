@@ -33,7 +33,7 @@ ollama pull gemma3:1b
 Install the required packages using pip:
 
 ```bash
-pip install streamlit openai
+pip install -r requirements.txt
 
 ```
 
